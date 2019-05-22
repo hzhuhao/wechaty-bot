@@ -9,7 +9,7 @@
 3. 群昵称规范
 4. koa 提供接口调用
 
-##.env 文件
+## .env 文件
 
 WATCHINGROOM=监测的群名
 
