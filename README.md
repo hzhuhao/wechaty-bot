@@ -10,6 +10,7 @@
 4. koa 提供接口调用
 
 ##.env 文件
+
 WATCHINGROOM=监测的群名
 
 SERVER=是否开启 koa
