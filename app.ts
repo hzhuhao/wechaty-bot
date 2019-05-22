@@ -82,7 +82,7 @@ const findContactsFitName = async (roomName = WATCHING_ROOM) => {
         return new Promise(async resolve => {
           const alias = await room.alias(contact);
           if (alias) temp.name = alias;
-          temp.isFit = nameRegex(alias);
+          temp.isFit = nameRegex(temp.name);
           resolve(temp);
         });
       });
