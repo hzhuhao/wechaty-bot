@@ -35,7 +35,7 @@ const onMessage = async (message: Message) => {
     writeLog(msg).catch(e => console.log(e));
     const issue = filter(text);
     if (issue) {
-      await room.say("有问题请找技术小象，QQ:2161861327", contact);
+      await room.say("有问题吗?", contact);
       // const file = FileBox.fromFile("./src/test.zip");
       // await room.say(file);
     }
