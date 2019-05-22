@@ -1,6 +1,6 @@
 # Wechaty-bot
 
-在[wechaty](https://github.com/Chatie/wechaty)基础上进行简单封装的简易微信群管理助手，实例支持添加多个`onMessage`事件和`onLogin`事件
+在[wechaty](https://github.com/Chatie/wechaty)基础上进行简单封装的简易微信群管理助手
 
 ## 现有功能
 
